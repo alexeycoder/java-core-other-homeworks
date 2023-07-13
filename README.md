@@ -18,6 +18,14 @@
 
 Основная программа &mdash; […/hw3/Main.java](src/main/java/edu/alexey/javacore/homeworks/hw3/Main.java)
 
+Команды для запуска (предварительно установить корневой каталог проекта в качестве рабочей директории):
+
+	mvn exec:java
+
+или
+
+	javac -sourcepath src/main/java/ -d out src/main/java/edu/alexey/javacore/homeworks/hw3/Main.java
+	java -classpath out edu.alexey.javacore.homeworks.hw3.Main
 
 ### Задача 2
 
@@ -31,5 +39,6 @@
 
 ### Пример
 
+![hw3-ex1](https://github.com/alexeycoder/java-core-other-homeworks/assets/109767480/c6d3acf0-d8eb-406b-b095-e20bf2f58881)
 
-
+![hw3-ex2](https://github.com/alexeycoder/java-core-other-homeworks/assets/109767480/0645dcdd-f0b8-4108-ae17-fff3eb50aa5e)
