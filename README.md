@@ -1,3 +1,44 @@
+## Урок 4. Обработка исключений
+
+### Задача
+
+1. В класс Товаров добавить перечисление с категориями товаров, добавить в Товар
+поле категория со значением созданного перечисления. Добавить геттеры, сеттеры.
+2. Добавить перечисление с размерами скидок - 0, 5, 10, 15, 20%. Написать метод,
+при вызове которого на переданную категорию товара незначается рандомная скидка
+из перечисления. Добавить в заказ поле стоимость и пересчитать стоимость
+согласно сгенерированным скидкам.
+3. Если сумма величин скидок на товары из заказа получилась больше 50%,
+выбросить исключение TooMuchSaleException(); То есть нужно сложить величины
+скидок на категории и проверить больше 50 или нет.
+
+*Исходная задача:*
+Эмуляция интернет-магазина
+
+### Решение
+
+Перечисление с категориями товаров &mdash; […/hw4/enums/Category.java](src/main/java/edu/alexey/javacore/homeworks/hw4/enums/Category.java)
+
+Перечисление с размерами скидок &mdash; […/hw4/enums/Discount.java](src/main/java/edu/alexey/javacore/homeworks/hw4/enums/Discount.java)
+
+Метод рандомного назначения скидки на категорию &mdash; `generateDiscountByCategory()`
+в […/hw4/DiscountHelper.java](src/main/java/edu/alexey/javacore/homeworks/hw4/DiscountHelper.java)
+
+Типы кастомных исключений, включая `TooMuchSaleException` &mdash; […/hw4/exceptions/*](src/main/java/edu/alexey/javacore/homeworks/hw4/exceptions)
+
+Поскольку условие подразумевает, что один заказ может иметь более одной позиции,
+в том числе из разных категорий товаров, обработка заказа реализована как
+фабрика заказов &mdash;
+[…/hw4/OrderComposerImpl.java](src/main/java/edu/alexey/javacore/homeworks/hw4/OrderComposerImpl.java),
+предоставляемая экземпляром магазина
+[…/hw4/Store.java](src/main/java/edu/alexey/javacore/homeworks/hw4/Store.java).
+
+### Пример
+
+	mvn exec:java
+
+
+
 ## Урок 3. Классы и объекты
 
 ### Задача 1
