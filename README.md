@@ -37,7 +37,7 @@
 
 	mvn exec:java
 
-
+![hw4-ex](https://github.com/alexeycoder/java-core-other-homeworks/assets/109767480/9e105a48-da7f-480d-8525-caaa51f4dcb2)
 
 ## Урок 3. Классы и объекты
 
