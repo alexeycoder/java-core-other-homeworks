@@ -43,9 +43,9 @@ public class DiscountHelper {
 
 	public int calcItemCost(OrderItem orderItem) {
 		int value = orderItem.product().getPrice() * orderItem.amount();
-		int dicsPercVal = getPercentValue(orderItem);
-		assert dicsPercVal >= 0 && dicsPercVal < 100 : "illegal discount";
-		value *= 100 - dicsPercVal;
+		int discPcntVal = getPercentValue(orderItem);
+		assert discPcntVal >= 0 && discPcntVal < 100 : "illegal discount";
+		value *= 100 - discPcntVal;
 		value /= 100;
 		return value;
 	}

@@ -1,6 +1,8 @@
-[Ii]mages/
+#[Ii]mages/
 [Tt]est/
+[Tt]emp/
 #.vscode/
+backup/
 
 # Compiled class file
 *.class
