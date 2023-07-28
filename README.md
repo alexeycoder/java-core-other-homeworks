@@ -14,19 +14,19 @@
 
 Копирование:
 
-![hw5-ex1]()
+![hw5-ex1](https://gitflic.ru/project/leoxander/java-core-other-homeworks/blob/raw?file=images%2Fhw5-ex1.png&commit=76495bbe16262363c14e2edab91237ebdea2977c)
 
 Тестовая директория источник:
 
-![hw5-ex2]()
+![hw5-ex2](https://gitflic.ru/project/leoxander/java-core-other-homeworks/blob/raw?file=images%2Fhw5-ex2-src.png&commit=76495bbe16262363c14e2edab91237ebdea2977c)
 
 Итоговый бэкап:
 
-![hw5-ex3]()
+![hw5-ex3](https://gitflic.ru/project/leoxander/java-core-other-homeworks/blob/raw?file=images%2Fhw5-ex3-dest.png&commit=76495bbe16262363c14e2edab91237ebdea2977c)
 
 Пример информирования об ошибке:
 
-![hw5-ex4]()
+![hw5-ex4](https://gitflic.ru/project/leoxander/java-core-other-homeworks/blob/raw?file=images%2Fhw5-ex4-err.png&commit=76495bbe16262363c14e2edab91237ebdea2977c)
 
 ### Задача 2
 
